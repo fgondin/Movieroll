@@ -1,0 +1,48 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url(../../assets/img/background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#card {
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 1.6;
+    font-size: 18px;
+    margin: 10px;
+}
+
+a{
+    color: black
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.acao:hover{
+    background-color: rgb(238, 178, 67);
+}
+
+.romance:hover{
+    background-color: red;
+}
+
+.terror:hover{
+    background-color: green;
+}

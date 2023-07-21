@@ -1,0 +1,20 @@
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

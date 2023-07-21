@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.content-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.content-left p {
+    margin-bottom: 10px;
+}
+
+.content-right {
+    flex: 1;
+    text-align: center;
+}
+
+.content-right img {
+    max-width: 100%;
+    height: auto;
+}
