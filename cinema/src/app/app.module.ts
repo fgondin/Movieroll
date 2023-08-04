@@ -7,6 +7,8 @@ import { IndexComponent } from './index/index.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { CategoriaComponent } from './categoria/categoria.component';
 import { FilmesComponent } from './filmes/filmes.component';
+import { ROUTES } from './app.routes';
+import { RouterModule } from '@angular/router'
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { FilmesComponent } from './filmes/filmes.component';
     FilmesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
