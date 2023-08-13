@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Categoria } from './models/categoria.model'
 
 @Component({
   selector: 'cin-categoria',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./categoria.component.css']
 })
 export class CategoriaComponent {
-
+  @Input() categoria!: Categoria;
 }

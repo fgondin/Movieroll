@@ -5,10 +5,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { IndexComponent } from './index/index.component';
 import { SobreComponent } from './sobre/sobre.component';
-import { CategoriaComponent } from './categoria/categoria.component';
+import { CategoriasComponent } from './categorias/categorias.component';
 import { FilmesComponent } from './filmes/filmes.component';
 import { ROUTES } from './app.routes';
-import { RouterModule } from '@angular/router'
+import { RouterModule } from '@angular/router';
+import { CategoriaComponent } from './categorias/categoria/categoria.component'
 
 @NgModule({
   declarations: [
@@ -16,8 +17,9 @@ import { RouterModule } from '@angular/router'
     HeaderComponent,
     IndexComponent,
     SobreComponent,
-    CategoriaComponent,
-    FilmesComponent
+    CategoriasComponent,
+    FilmesComponent,
+    CategoriaComponent
   ],
   imports: [
     BrowserModule,
