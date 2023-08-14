@@ -2,29 +2,12 @@
         
     <div class="content">
         
-        <div class="card">
-            <h2>{{acao[0].nome}}</h2>
-            <img src="../../assets/img/007-goldeneye.jpg">
-        </div>
-        <div class="card">
-            <h2>Duro de Matar: A Vingança</h2>
-            <img src="../../assets/img/duro-de-matar.jpg">
-        </div>
-        <div class="card">
-            <h2>O Exterminador do Futuro</h2>
-            <img src="../../assets/img/o-exterminador.jpg">
+        <div class="card" *ngFor = "let f of filme">
+            <img src={{f.src}}>
+            <h2> {{f.nome}} </h2>
         </div>
     
     </div>
-
-    <!-- <div class="content">
-        
-        <div class="card" *ngFor = "let a of acao">
-            <img src={{a.src}}>
-            <h2> {{a.nome}} </h2>
-        </div>
     
-    </div> -->
     
 </div>
-
