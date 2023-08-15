@@ -9,6 +9,6 @@ export class CategoriasService{
   constructor(private http: HttpClient){}
 
   listarCategorias(): Observable<Categoria[]>{
-    return this.http.get<Categoria[]>(`${CINEMA_API}categorias`);
+    return this.http.get<Categoria[]>(`${CINEMA_API}/categorias`);
   }
 }

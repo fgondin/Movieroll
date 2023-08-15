@@ -1,1 +1,1 @@
-export const CINEMA_API = 'http://localhost:300';
+export const CINEMA_API = 'http://localhost:3000';
