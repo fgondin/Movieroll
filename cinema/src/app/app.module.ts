@@ -10,6 +10,7 @@ import { FilmesComponent } from './filmes/filmes.component';
 import { ROUTES } from './app.routes';
 import { RouterModule } from '@angular/router';
 import { CategoriaComponent } from './categorias/categoria/categoria.component'
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CategoriaComponent } from './categorias/categoria/categoria.component'
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
