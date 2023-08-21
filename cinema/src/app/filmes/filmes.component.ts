@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { FilmesService } from './filmes.service';
 import { Filme } from './models/filme.model'
 
@@ -8,12 +9,11 @@ import { Filme } from './models/filme.model'
   styleUrls: ['./filmes.component.css']
 })
 export class FilmesComponent {
-
   filmes!: Filme[];
 
-  constructor(private service: FilmesService){}
+  constructor(private service: FilmesService, private route: ActivatedRoute){}
 
   ngOnInit(){
-    this.service.listarFilmes().subscribe(filmes => this.filmes = filmes)
+    this.service.listarFilmesPorCategoria(this.route.snapshot.params['id']).subscribe(filmes => this.filmes = filmes)
   }
 }

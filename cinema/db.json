@@ -20,55 +20,55 @@
             "id": 0,
             "nome": "007 Goldenye",
             "src": "/assets/img/007-goldeneye.jpg",
-            "genero": 0
+            "categoria_id": 0
         },
         {
             "id": 1,
             "nome": "Duro de Matar: A Vingança",
             "src": "/assets/img/duro-de-matar.jpg",
-            "genero": 0
+            "categoria_id": 0
         },
         {
             "id": 2,
             "nome": "O Exterminador do Futuro",
             "src": "/assets/img/o-exterminador.jpg",
-            "genero": 0
+            "categoria_id": 0
         },
         {
             "id": 3,
             "nome": "A Bruxa de Blair",
             "src": "/assets/img/a-bruxa.jpg",
-            "genero": 1
+            "categoria_id": 1
         },
         {
             "id": 4,
             "nome": "O Chamado",
             "src": "/assets/img/o-chamado.jpg",
-            "genero": 1
+            "categoria_id": 1
         },
         {
             "id": 5,
             "nome": "O SIlêncio dos Inocentes",
             "src": "/assets/img/o-silencio.jpg",
-            "genero": 1
+            "categoria_id": 1
         },
         {
             "id": 6,
             "nome": "Uma Linda Mulher",
             "src": "/assets/img/uma-linda.jpg",
-            "genero": 2
+            "categoria_id": 2
         },
         {
             "id": 7,
             "nome": "Encontro Marcado",
             "src": "/assets/img/encontro-marcado.jpg",
-            "genero": 2
+            "categoria_id": 2
         },
         {
             "id": 9,
             "nome": "Amor Além da Vida",
             "src": "/assets/img/amor-alem.jpg",
-            "genero": 2
+            "categoria_id": 2
         }
 
     ]
