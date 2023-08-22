@@ -2,10 +2,10 @@
         
     <div class="content">
         
-        <div class="card" *ngFor = "let f of filmes">
-            <img src={{f.src}}>
-            <h2> {{f.nome}} </h2>
-        </div>
+        <cin-filme *ngFor = "let f of filmes" [filme] = "f">
+            {{f.src}}
+            {{f.nome}}
+        </cin-filme>
     
     </div>
     

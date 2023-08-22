@@ -13,6 +13,7 @@ import { CategoriaComponent } from './categorias/categoria/categoria.component'
 import { HttpClientModule } from '@angular/common/http';
 import { CategoriasService } from './categorias/categorias.service';
 import { FilmesService } from './filmes/filmes.service';
+import { FilmeComponent } from './filmes/filme/filme.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FilmesService } from './filmes/filmes.service';
     CategoriasComponent,
     FilmesComponent,
     CategoriaComponent,
+    FilmeComponent,
   ],
   imports: [
     BrowserModule,
